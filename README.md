@@ -3,7 +3,7 @@ About r-multicool
 
 Home: https://CRAN.R-project.org/package=multicool
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-multicool-feedstock/blob/master/LICENSE.txt)
 
