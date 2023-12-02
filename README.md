@@ -3,6 +3,7 @@ About r-multicool-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-multicool-feedstock/blob/main/LICENSE.txt)
 
+
 About r-multicool
 -----------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=multicool
 Package license: GPL-2.0-only
 
 Summary: A set of tools to permute multisets without loops or hash tables and to generate integer partitions. The permutation functions are based on C code from Aaron Williams. Cool-lex order is similar to colexicographical order. The algorithm is described in Williams, A. (2009)  <DOI:10.1145/1496770.1496877> Loopless Generation of Multiset Permutations by Prefix Shifts. Symposium on Discrete Algorithms, New York, United States. The permutation code is distributed without restrictions. The code for stable and efficient computation of multinomial coefficients comes from Dave Barber. The code can be download from <http://tamivox.org/dave/multinomial/code.html> and is distributed without conditions. The package also generates the integer partitions of a positive, non-zero integer n. The C++ code for this is based on Python code from Jerome Kelleher which can be found here <http://jeromekelleher.net/tag/integer-partitions.html>. The C++ code and Python code are distributed without conditions.
+
 About r-multicool
 -----------------
 
@@ -195,7 +197,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
