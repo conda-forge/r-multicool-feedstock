@@ -1,4 +1,4 @@
-{% set version = "0.1-12" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/multicool_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/multicool/multicool_{{ version }}.tar.gz
-  sha256: 487d28d9c3c606be0cf56e2d8f8b0d79fb71949c68886ea9251fbb1c01664a36
+  sha256: 4fb08e97d59da8d53730bc72ddabcb04f84ac7965f1e590e5ed1973f7861913d
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
