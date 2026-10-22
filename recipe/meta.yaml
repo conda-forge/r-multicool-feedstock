@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/multicool_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/multicool/multicool_{{ version }}.tar.gz
-  sha256: bd72de1fbd7ea32018d6af09ac2af80871ebe26bf9dfdf1ba53f87e6cff56c1f
+  sha256: 41b1cfbb9537b0c7c3aef6670d2bdda8a440c9cc1dffc944435cf2b0ecad0ab7
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -48,10 +48,10 @@ test:
 about:
   home: https://CRAN.R-project.org/package=multicool
   license: GPL-2.0-only
-  summary: A set of tools to permute multisets without loops or hash tables and to generate integer partitions. The permutation functions are based on C code from Aaron Williams. Cool-lex order is similar to colexicographical order. The algorithm is described in Williams, A. (2009)  <DOI:10.1145/1496770.1496877> Loopless
-    Generation of Multiset Permutations by Prefix Shifts. Symposium on Discrete Algorithms, New York, United States. The permutation code is distributed without restrictions. The code for stable and efficient computation of multinomial coefficients comes from Dave Barber. The code can be download from <http://tamivox.org/dave/multinomial/code.html>
-    and is distributed without conditions. The package also generates the integer partitions of a positive, non-zero integer n. The C++ code for this is based on Python code from Jerome Kelleher which can be found here <http://jeromekelleher.net/tag/integer-partitions.html>. The C++ code and Python code are distributed without
-    conditions.
+  summary: A set of tools to permute multisets without loops or hash tables and to generate integer partitions. The permutation functions are based on C code from Aaron Williams. Cool-lex order is similar to colexicographical order. The algorithm is described in Williams, A. (2009)  <DOI:10.1145/1496770.1496877> 
+    Loopless Generation of Multiset Permutations by Prefix Shifts. Symposium on Discrete Algorithms, New York, United States. The permutation code is distributed without restrictions. The code for stable and efficient computation of multinomial coefficients comes from Dave Barber. The code can be download from 
+    <http://tamivox.org/dave/multinomial/code.html> and is distributed without conditions. The package also generates the integer partitions of a positive, non-zero integer n. The C++ code for this is based on Python code from Jerome Kelleher which can be found here 
+    <http://jeromekelleher.net/tag/integer-partitions.html>. The C++ code and Python code are distributed without conditions.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
